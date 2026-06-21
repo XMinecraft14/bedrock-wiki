@@ -92,10 +92,7 @@ These tags can be applied to your block in its `minecraft:tags` component:
         "components": {
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1.5
-            },
-            "minecraft:tags": [
-                "minecraft:is_pickaxe_item_destructible" // Allows pickaxes to mine this block faster
-            ]
+            },  "tag:minecraft:is_pickaxe_item_destructible" // Allows pickaxes to mine this block faster
         }
     }
 }
